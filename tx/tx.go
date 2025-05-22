@@ -178,7 +178,7 @@ func TransferToken(client *ethclient.Client) {
 }
 
 func BlockSubscribe() {
-	client, err := ethclient.Dial("wss://127.0.0.1:8545/ws")
+	client, err := ethclient.Dial("ws://127.0.0.1:8545")
 	if err != nil {
 		log.Fatal(err)
 	}

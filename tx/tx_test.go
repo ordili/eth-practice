@@ -34,3 +34,7 @@ func TestCreateRawTransaction(t *testing.T) {
 	fmt.Println("rawTx is  ", rawTx)
 	SendRawTransaction(client, rawTx)
 }
+
+func TestBlockSubscribe(t *testing.T) {
+	//BlockSubscribe()
+}
